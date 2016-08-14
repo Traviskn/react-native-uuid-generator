@@ -1,6 +1,6 @@
 # react-native-uuid-generator
 
-A simple wrapper around the native iOS and Android UUID generators.
+A simple wrapper around the native iOS and Android UUID classes.
 Exposes a single method, `getRandomUUID`.
 
 ## Getting started

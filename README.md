@@ -1,5 +1,8 @@
 # react-native-uuid-generator
 
+A simple wrapper around the native iOS and Android UUID generators.
+Exposes a single method, `getRandomUUID`.
+
 ## Getting started
 
 `$ npm install react-native-uuid-generator --save`
@@ -37,7 +40,9 @@
 ```javascript
 import RNUUIDGenerator from 'react-native-uuid-generator';
 
-const uuid = RNUUIDGenerator.getRandomUUID();
-// => "randomuuidstring"
+RNUUIDGenerator.getRandomUUID((uuid) => {
+  console.log(uuid);
+});
+// => "BD6120BD-3612-4D56-8957-99F5D6F02C52"
 ```
 

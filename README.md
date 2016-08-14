@@ -27,14 +27,14 @@ Exposes a single method, `getRandomUUID`.
   - Add `import com.reactlibrary.RNUUIDGeneratorPackage;` to the imports at the top of the file
   - Add `new RNUUIDGeneratorPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
-    ```
+  ```
     include ':react-native-uuid-generator'
     project(':react-native-uuid-generator').projectDir = new File(rootProject.projectDir,   '../node_modules/react-native-uuid-generator/android')
   ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-    ```
-      compile project(':react-native-uuid-generator')
-    ```
+  ```
+    compile project(':react-native-uuid-generator')
+  ```
 
 ## Usage
 ```javascript
@@ -45,4 +45,3 @@ RNUUIDGenerator.getRandomUUID((uuid) => {
 });
 // => "BD6120BD-3612-4D56-8957-99F5D6F02C52"
 ```
-

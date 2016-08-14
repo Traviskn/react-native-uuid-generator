@@ -23,7 +23,7 @@ public class RNUUIDGeneratorModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public String getRandomUUID(Callback callback) {
+  public void getRandomUUID(Callback callback) {
     String uuid = UUID.randomUUID().toString();
 
     callback.invoke(uuid);

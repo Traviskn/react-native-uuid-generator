@@ -19,10 +19,10 @@ public class RNUUIDGeneratorModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "RNUuidGenerator";
+    return "RNUUIDGenerator";
   }
 
-  @Override
+  @ReactMethod
   public String getRandomUUID(Callback callback) {
     String uuid = UUID.randomUUID().toString();
 

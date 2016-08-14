@@ -2,6 +2,10 @@
   "name": "react-native-uuid-generator",
   "version": "1.0.0",
   "description": "A simple wrapper around the native iOS and Android UUID classes for React Native",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Traviskn/react-native-uuid-generator"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -45,3 +45,16 @@ RNUUIDGenerator.getRandomUUID((uuid) => {
 });
 // => "BD6120BD-3612-4D56-8957-99F5D6F02C52"
 ```
+
+## Example
+Check out the example app included in the github repo to see the UUID Generator in action!
+I assume you already have the react-native-cli installed, as well as the required iOS or Android dependencies.
+
+```
+git clone https://github.com/Traviskn/react-native-uuid-generator.git
+
+cd react-native-uuid-generator/example
+npm install
+```
+
+Use `react-native run-ios` or `react-native run-android` to run the example.

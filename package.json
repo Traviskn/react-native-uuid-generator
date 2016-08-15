@@ -18,5 +18,10 @@
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.29.0"
-  }
+  },
+  "files": [
+    "android/",
+    "ios/",
+    "index.js"
+  ]
 }

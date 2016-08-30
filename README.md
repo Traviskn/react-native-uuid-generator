@@ -3,25 +3,42 @@
 A simple wrapper around the native iOS and Android UUID classes.
 Exposes a single method, `getRandomUUID`.
 
+![Example App Screen Capture]
+(https://raw.githubusercontent.com/traviskn/react-native-uuid-generator/master/media/UUIDGenerator.gif)
+
+
 ## Getting started
 
 `$ npm install react-native-uuid-generator --save`
 
-### Mostly automatic installation
-
 `$ react-native link react-native-uuid-generator`
 
-### Manual installation
+
+## Usage
+
+```javascript
+import UUIDGenerator from 'react-native-uuid-generator';
+
+UUIDGenerator.getRandomUUID((uuid) => {
+  console.log(uuid);
+});
+// => "BD6120BD-3612-4D56-8957-99F5D6F02C52"
+```
 
 
-#### iOS
+## Manual installation
+
+If the `react-native link` command doesn't work, you can also install
+the native components of this library manually.
+
+### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-uuid-generator` and add `RNUUIDGenerator.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNUUIDGenerator.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
-#### Android
+### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
   - Add `import com.reactlibrary.RNUUIDGeneratorPackage;` to the imports at the top of the file
@@ -36,15 +53,6 @@ Exposes a single method, `getRandomUUID`.
     compile project(':react-native-uuid-generator')
   ```
 
-## Usage
-```javascript
-import RNUUIDGenerator from 'react-native-uuid-generator';
-
-RNUUIDGenerator.getRandomUUID((uuid) => {
-  console.log(uuid);
-});
-// => "BD6120BD-3612-4D56-8957-99F5D6F02C52"
-```
 
 ## Example
 Check out the example app included in the github repo to see the UUID Generator in action!

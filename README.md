@@ -3,8 +3,7 @@
 A simple wrapper around the native iOS and Android UUID classes.
 Exposes a single method, `getRandomUUID`.
 
-![Example App Screen Capture]
-(https://raw.githubusercontent.com/traviskn/react-native-uuid-generator/master/media/UUIDGenerator.gif)
+![Example App Screen Capture](https://raw.githubusercontent.com/traviskn/react-native-uuid-generator/master/media/UUIDGenerator.gif)
 
 
 ## Getting started

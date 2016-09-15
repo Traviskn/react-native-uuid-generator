@@ -18,7 +18,7 @@ Exposes a single method, `getRandomUUID`.
 ```javascript
 import UUIDGenerator from 'react-native-uuid-generator';
 
-UUIDGenerator.getRandomUUID((uuid) => {
+UUIDGenerator.getRandomUUID().then((uuid) => {
   console.log(uuid);
 });
 // => "BD6120BD-3612-4D56-8957-99F5D6F02C52"

@@ -8,11 +8,12 @@
 }
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(getRandomUUID:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(getRandomUUID:(RCTPromiseResolveBlock)resolve
+                  reject:(__unused RCTPromiseRejectBlock)reject)
 {
   NSString *uuid = [[NSUUID UUID] UUIDString];
 
-  callback(@[uuid]);
+  resolve(@[uuid]);
 }
 
 @end

@@ -15,12 +15,21 @@ Exposes a single method, `getRandomUUID`.
 
 ## Usage
 
+This library supports both callback and promise interfaces.
+
 ```javascript
 import UUIDGenerator from 'react-native-uuid-generator';
 
+// Callback interface
 UUIDGenerator.getRandomUUID((uuid) => {
   console.log(uuid);
 });
+// => "42A8A87A-F71C-446B-B81D-0CD16A709625"
+
+// Promise interface
+UUIDGenerator.getRandomUUID().then((uuid) => {
+  console.log(uuid);
+})
 // => "BD6120BD-3612-4D56-8957-99F5D6F02C52"
 ```
 

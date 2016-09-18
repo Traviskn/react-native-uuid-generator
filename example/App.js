@@ -24,9 +24,14 @@ class App extends Component {
   }
 
   generateUUID() {
-    UUIDGenerator.getRandomUUID((uuid) => {
+    UUIDGenerator.getRandomUUID().then((uuid) => {
       this.setState({ uuid });
     });
+
+    // Or use the callback interface if you prefer.
+    // UUIDGenerator.getRandomUUID((uuid) => {
+    //   this.setState({ uuid });
+    // });
   }
 
   render() {

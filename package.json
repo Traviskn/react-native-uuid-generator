@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"This library has no automated tests. Please use the example app to manually test changes.\" && exit 1"
   },
   "keywords": [
     "react-native",

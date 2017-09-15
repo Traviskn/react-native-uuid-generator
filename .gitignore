@@ -6,5 +6,6 @@
 node_modules
 npm-debug.log
 android/build
+android/local.properties
 ios/**/*xcuserdata*
 ios/**/*xcshareddata*

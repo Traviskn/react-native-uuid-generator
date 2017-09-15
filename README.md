@@ -1,5 +1,7 @@
 # react-native-uuid-generator
 
+[![npm version](https://img.shields.io/npm/v/react-native-uuid-generator.svg?style=flat-square)](https://www.npmjs.com/package/react-native-uuid-generator) [![downloads](https://img.shields.io/npm/dm/react-native-uuid-generator.svg?style=flat-square)](https://www.npmjs.com/package/react-native-uuid-generator)
+
 A simple wrapper around the native iOS and Android UUID classes.
 Exposes a single method, `getRandomUUID`.
 

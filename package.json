@@ -17,7 +17,7 @@
   "author": "Travis Nuttall",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.40"
+    "react-native": ">=0.47"
   },
   "files": [
     "android/",

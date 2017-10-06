@@ -1,6 +1,6 @@
 {
   "name": "react-native-uuid-generator",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A simple wrapper around the native iOS and Android UUID classes for React Native",
   "repository": {
     "type": "git",

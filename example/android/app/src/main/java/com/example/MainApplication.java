@@ -3,7 +3,7 @@ package com.example;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.reactlibrary.RNUUIDGeneratorPackage;
+import com.Traviskn.RNUUIDGeneratorPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;

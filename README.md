@@ -51,7 +51,7 @@ the native components of this library manually.
 ### Android
 
 1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import com.Traviskn.RNUUIDGeneratorPackage;` to the imports at the top of the file
+  - Add `import io.github.traviskn.rnuuidgenerator.RNUUIDGeneratorPackage;` to the imports at the top of the file
   - Add `new RNUUIDGeneratorPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   ```
@@ -63,6 +63,8 @@ the native components of this library manually.
     compile project(':react-native-uuid-generator')
   ```
 
+## Upgrading
+See the [changelog](https://github.com/Traviskn/react-native-uuid-generator/blob/master/CHANGELOG.md) for instructions on upgrading to the latest version.
 
 ## Example
 Check out the example app included in the github repo to see the UUID Generator in action!

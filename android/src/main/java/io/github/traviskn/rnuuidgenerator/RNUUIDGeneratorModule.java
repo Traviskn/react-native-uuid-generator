@@ -1,4 +1,4 @@
-package com.Traviskn;
+package io.github.traviskn.rnuuidgenerator;
 
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;

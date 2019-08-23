@@ -23,6 +23,7 @@
   "files": [
     "android/",
     "ios/",
-    "index.js"
+    "index.js",
+    "react-native-uuid-generator.podspec"
   ]
 }

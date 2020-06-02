@@ -1,4 +1,4 @@
-#import "RNUuidGenerator.h"
+#import "RNUUIDGenerator.h"
 
 @implementation RNUUIDGenerator
 

@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from 'uuid';
 const { RNUUIDGenerator } = NativeModules;
 
 const web = {
-  pino: 'test',
   getRandomUUID( callback ) {
     const uuid = uuidv4().toUpperCase()
     if ( callback ) {

@@ -9,3 +9,5 @@ android/build
 android/local.properties
 ios/**/*xcuserdata*
 ios/**/*xcshareddata*
+.vscode/snipsnap.code-snippets
+*.lock

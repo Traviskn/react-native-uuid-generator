@@ -25,5 +25,8 @@
     "ios/",
     "index.js",
     "react-native-uuid-generator.podspec"
-  ]
+  ],
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
 }
